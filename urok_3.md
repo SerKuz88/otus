@@ -10,5 +10,6 @@
  развернуть контейнер с клиентом postgres   
  • подключится из контейнера с клиентом к контейнеру с сервером и сделать
 таблицу с парой строк   
- ![image](https://user-images.githubusercontent.com/108919955/179410845-40fd23cd-8583-4d5d-ba0c-111ebffe303b.png)
+![image](https://user-images.githubusercontent.com/108919955/179410845-40fd23cd-8583-4d5d-ba0c-111ebffe303b.png)
+![image](https://user-images.githubusercontent.com/108919955/179411067-5a0109b5-8013-4859-bc73-fdb95049f2c5.png)
 
