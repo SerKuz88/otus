@@ -8,5 +8,7 @@
 ![image](https://user-images.githubusercontent.com/108919955/179410747-db2fd2b4-21b8-42a3-9a42-16ff7ac8a82a.png)   
    
  развернуть контейнер с клиентом postgres   
+ • подключится из контейнера с клиентом к контейнеру с сервером и сделать
+таблицу с парой строк   
  ![image](https://user-images.githubusercontent.com/108919955/179410845-40fd23cd-8583-4d5d-ba0c-111ebffe303b.png)
 
