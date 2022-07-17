@@ -10,4 +10,7 @@
 - в первой сессии запись вижу во второй нет, т.к.  read commited не поддерживает грязное чтение
 ![image](https://user-images.githubusercontent.com/108919955/179390775-a5f06c23-0b1c-4a10-ba67-8807da928fe4.png)   
 ![image](https://user-images.githubusercontent.com/108919955/179390848-d0c8d773-2e8a-48a0-876b-91e176383732.png)
+- завершить первую транзакцию - commit;
+- сделать select * from persons во второй сессии
+- видите ли вы новую запись и если да то почему?
 
