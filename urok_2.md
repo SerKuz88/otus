@@ -2,7 +2,7 @@
  поставить PostgreSQL   
  ![image](https://user-images.githubusercontent.com/108919955/179389927-3950a088-2a03-48c7-b91e-21745dab7413.png)   
  
- - в первой сессии добавить новую запись
+ 1. в первой сессии добавить новую запись
  insert into persons(first_name, second_name) values('sergey', 'sergeev');
    сделать select * from persons во второй сессии   
 - видите ли вы новую запись и если да то почему?  
@@ -16,7 +16,7 @@
 Ответ:
 после коммита во второй сесси появилась запись, т.к. read commited поддерживает фантомное чтение
 
-- начать новые но уже repeatable read транзакции
+2. начать новые но уже repeatable read транзакции
 - сделать select * from persons во второй сессии
 - видите ли вы новую запись и если да то почему?
 не вижу, т.к. repeateble read не поддерживает грязное чтение.
