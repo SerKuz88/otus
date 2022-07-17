@@ -17,4 +17,8 @@
 сервер на котором установлен докер - 158.160.1.246   
 сторонний сервер - "server-iz-vne"   
 пингуем, удаленно подключаемся к постгресу на 158.160.1.246, проверяем наличие созданной таблицы   
-![image](https://user-images.githubusercontent.com/108919955/179413951-0404d4a7-1651-456e-a04b-53fe3ed25fcb.png)
+![image](https://user-images.githubusercontent.com/108919955/179413951-0404d4a7-1651-456e-a04b-53fe3ed25fcb.png)   
+   
+удалить контейнер с сервером   
+![image](https://user-images.githubusercontent.com/108919955/179416677-4ed9fa70-3e88-440c-b88b-f00e68fa7d37.png)
+
