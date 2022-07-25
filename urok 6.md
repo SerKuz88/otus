@@ -13,3 +13,7 @@
    
 остановите postgres например через sudo -u postgres pg_ctlcluster 14 main stop   
 ![image](https://user-images.githubusercontent.com/108919955/180817710-6bb6c8b6-a158-4112-b163-0112f732fd05.png)
+   
+создайте новый standard persistent диск   
+Имеем диск vdb на 12 гб   
+![image](https://user-images.githubusercontent.com/108919955/180818947-cc1e79f2-19db-4992-955e-f484f488f787.png)
