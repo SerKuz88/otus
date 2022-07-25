@@ -6,3 +6,7 @@
 
 проверьте что кластер запущен через sudo -u postgres pg_lsclusters   
 ![image](https://user-images.githubusercontent.com/108919955/180816060-873e3eec-95d5-463a-9c83-806ac5240bfd.png)
+   
+зайдите из под пользователя postgres в psql и сделайте произвольную таблицу с произвольным содержимым postgres=# create table test(c1 text); postgres=# insert into test values('1'); \q   
+
+![image](https://user-images.githubusercontent.com/108919955/180816773-5ff0cecc-0057-4356-9567-fd69bf207e17.png)
