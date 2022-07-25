@@ -36,5 +36,16 @@
 попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 14 main start   
 ответ: не запустится, т.к. в файле postgresql.conf параметр data_directory имеет старый котолог, который уже не существует   
 ![image](https://user-images.githubusercontent.com/108919955/180830856-56c993ba-b0fe-485f-8c1b-d801ae76fb17.png)
+   
+прописал новый путь   
+![image](https://user-images.githubusercontent.com/108919955/180831552-727ffe25-af51-4008-8ed7-cbff9ff5d993.png)   
+
+запускаем базу   
+![image](https://user-images.githubusercontent.com/108919955/180831903-92fe60d2-399e-48db-a01f-38d81253136a.png)   
+
+созданная ранее таблица видна   
+![image](https://user-images.githubusercontent.com/108919955/180832162-602fe24b-fa49-4411-b318-d8bcca21e349.png)
+
+
 
 
