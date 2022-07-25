@@ -21,5 +21,9 @@
 ![image](https://user-images.githubusercontent.com/108919955/180821724-85c5dd05-be26-4865-a2c2-a77d73f9841d.png)   
 ![image](https://user-images.githubusercontent.com/108919955/180821788-04c5aabf-86df-4847-88db-37687b295d74.png)   
 делаем файловую систему, смотрим uuid   
-![image](https://user-images.githubusercontent.com/108919955/180824439-1ddc001c-2840-4409-a82f-497903170cf7.png)
+![image](https://user-images.githubusercontent.com/108919955/180824439-1ddc001c-2840-4409-a82f-497903170cf7.png)   
+![image](https://user-images.githubusercontent.com/108919955/180824984-e56437bb-4d07-4933-a13a-958a623b6ab2.png)
+   
+создаем директорию   
+![image](https://user-images.githubusercontent.com/108919955/180826102-dccce3f9-8d8a-4adc-bd43-710341136039.png)
 
