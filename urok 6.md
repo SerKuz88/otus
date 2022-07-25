@@ -28,4 +28,11 @@
 ![image](https://user-images.githubusercontent.com/108919955/180826102-dccce3f9-8d8a-4adc-bd43-710341136039.png)
    
 добавил uuid в fstab   
-![image](https://user-images.githubusercontent.com/108919955/180828434-3bd6d800-ab97-4b36-802f-94fb845191d5.png)
+![image](https://user-images.githubusercontent.com/108919955/180828434-3bd6d800-ab97-4b36-802f-94fb845191d5.png)   
+   
+перенесите содержимое /var/lib/postgres/14 в /mnt/data - mv /var/lib/postgresql/14 /mnt/data   
+![image](https://user-images.githubusercontent.com/108919955/180829397-8c4b5bde-3324-4942-a75b-60cabbfb2450.png)   
+   
+попытайтесь запустить кластер - sudo -u postgres pg_ctlcluster 14 main start   
+ответ: не запустится.
+
