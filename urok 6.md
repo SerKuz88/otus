@@ -19,4 +19,6 @@
 ![image](https://user-images.githubusercontent.com/108919955/180818947-cc1e79f2-19db-4992-955e-f484f488f787.png)   
 разбиваем диск через fdisk  
 ![image](https://user-images.githubusercontent.com/108919955/180821724-85c5dd05-be26-4865-a2c2-a77d73f9841d.png)   
-![image](https://user-images.githubusercontent.com/108919955/180821788-04c5aabf-86df-4847-88db-37687b295d74.png)
+![image](https://user-images.githubusercontent.com/108919955/180821788-04c5aabf-86df-4847-88db-37687b295d74.png)   
+делаем файловую систему, смотрим uid, перезагружаем сервер   
+![image](https://user-images.githubusercontent.com/108919955/180823106-2f3ad721-85c5-41a4-aadd-1d65567824b2.png)
