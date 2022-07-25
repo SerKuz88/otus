@@ -26,4 +26,6 @@
    
 создаем директорию   
 ![image](https://user-images.githubusercontent.com/108919955/180826102-dccce3f9-8d8a-4adc-bd43-710341136039.png)
-
+   
+добавил uuid в fstab   
+![image](https://user-images.githubusercontent.com/108919955/180828434-3bd6d800-ab97-4b36-802f-94fb845191d5.png)
