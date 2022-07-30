@@ -1,11 +1,17 @@
 # otus
 1 создайте новый кластер PostgresSQL 13 (на выбор - GCE, CloudSQL)  
 2 зайдите в созданный кластер под пользователем postgres  
+![image](https://user-images.githubusercontent.com/108919955/181925586-6fe7dc01-df1a-4723-a4bd-05c27c01b52b.png)
+  
 3 создайте новую базу данных testdb  
 4 зайдите в созданную базу данных под пользователем postgres  
+![image](https://user-images.githubusercontent.com/108919955/181925694-f31b518f-eadf-409f-82f3-a0e8b648f891.png)
+  
 5 создайте новую схему testnm  
 6 создайте новую таблицу t1 с одной колонкой c1 типа integer  
-7 вставьте строку со значением c1=1  
+7 вставьте строку со значением c1=1
+![image](https://user-images.githubusercontent.com/108919955/181925788-7f3b5668-91d8-4115-bcb1-0182ef709cfe.png)
+  
 8 создайте новую роль readonly  
 9 дайте новой роли право на подключение к базе данных testdb  
 10 дайте новой роли право на использование схемы testnm  
