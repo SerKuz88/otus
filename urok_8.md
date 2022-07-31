@@ -18,6 +18,6 @@
 
 а дальше настроить autovacuum максимально эффективно  
 изменены следующие параметры (подчеркнуты красным)  
-![image](https://user-images.githubusercontent.com/108919955/182024365-23cb27a5-336e-459b-81b0-bfbcccf82fde.png)
+![image](https://user-images.githubusercontent.com/108919955/182024389-f4b4c632-094f-49d1-8a41-40ba75981610.png)
   
 так чтобы получить максимально ровное значение tps на горизонте часа  
