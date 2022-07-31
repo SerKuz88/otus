@@ -29,4 +29,10 @@
 см. измененные параметры подчеркнуты  
 ![image](https://user-images.githubusercontent.com/108919955/182037004-fd3e0721-9b81-4f24-90fd-b9dbe10c8cbc.png)
   
-результат: 
+результат:  
+![image](https://user-images.githubusercontent.com/108919955/182039195-1039c0c4-2381-49a5-845c-990c7191e945.png)
+   
+ вывод: максимально равное значение tps на горизонте часа получилось при третьем тесте  
+ ![image](https://user-images.githubusercontent.com/108919955/182039337-63320d7a-e19f-4257-9222-505fe0bf7ac5.png)
+
+  
