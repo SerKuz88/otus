@@ -4,9 +4,16 @@
 ![image](https://user-images.githubusercontent.com/108919955/182013367-08a79c56-ddb2-470a-8dd0-7a13ba5ddea3.png)
   
 применить параметры настройки PostgreSQL из прикрепленного к материалам занятия файла  
+![image](https://user-images.githubusercontent.com/108919955/182014732-6729ba53-8547-499d-96c0-fbee27b34311.png)
+  
 выполнить pgbench -i postgres  
+![image](https://user-images.githubusercontent.com/108919955/182014853-8ad61794-206b-49d7-bf2a-15d6de1ada58.png)
+  
 запустить pgbench -c8 -P 60 -T 3600 -U postgres postgres  
 дать отработать до конца  
+![image](https://user-images.githubusercontent.com/108919955/182017705-55655d26-fe58-42ca-aa7f-fe43b8ac8e8d.png)
+  
 зафиксировать среднее значение tps в последней ⅙ части работы  
+
 а дальше настроить autovacuum максимально эффективно  
 так чтобы получить максимально ровное значение tps на горизонте часа  
