@@ -33,6 +33,7 @@
 ![image](https://user-images.githubusercontent.com/108919955/182039195-1039c0c4-2381-49a5-845c-990c7191e945.png)
    
  вывод: максимально равное значение tps на горизонте часа получилось при третьем тесте  
+   
  ![image](https://user-images.githubusercontent.com/108919955/182039337-63320d7a-e19f-4257-9222-505fe0bf7ac5.png)
 
   
