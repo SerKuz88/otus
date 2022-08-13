@@ -26,7 +26,7 @@
 ![image](https://user-images.githubusercontent.com/108919955/184472883-b109b18e-3e84-40fc-91a2-5bd6bca932a3.png)  
   
 здесь мы видим, что:
-Три транзакции с типом relation в режиме RowExclusiveLock устанавились для изменения строк;
+Три транзакции с типом relation в режиме RowExclusiveLock устанавились для изменения строк;  
 две из них ожидают блокировку типа tuple для обновляемой строки.
 
 
