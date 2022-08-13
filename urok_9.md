@@ -8,10 +8,15 @@
   
  пример:  
  первая сессия  
- ![image](https://user-images.githubusercontent.com/108919955/184470550-46e327a1-bfb2-430d-86d8-d2268c8818c7.png)
+ ![image](https://user-images.githubusercontent.com/108919955/184470550-46e327a1-bfb2-430d-86d8-d2268c8818c7.png)  
  вторая сессия  
- ![image](https://user-images.githubusercontent.com/108919955/184470610-2fa87ff6-9834-4a30-8e72-eedeee5a42d2.png)
+ ![image](https://user-images.githubusercontent.com/108919955/184470610-2fa87ff6-9834-4a30-8e72-eedeee5a42d2.png)  
 
+запрос показывает следующие блокировки:  
+![image](https://user-images.githubusercontent.com/108919955/184470723-320e7498-6594-48da-b54a-e535e8da0eca.png)
+  
+в логе появились записи об этой блокировке:  
+![image](https://user-images.githubusercontent.com/108919955/184470770-59dc5c00-d780-4907-a8ad-1e8116798819.png)  
   
 2.Смоделируйте ситуацию обновления одной и той же строки тремя командами UPDATE в разных сеансах. Изучите возникшие блокировки в представлении pg_locks и убедитесь, что все они понятны. Пришлите список блокировок и объясните, что значит каждая.  
 3.Воспроизведите взаимоблокировку трех транзакций. Можно ли разобраться в ситуации постфактум, изучая журнал сообщений?  
