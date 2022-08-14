@@ -41,7 +41,16 @@ archive_command = 'test ! -f /var/lib/postgresql/wal_files/%f && cp %p /var/lib/
 включаем контрольную сумму для кластера:  
 ![image](https://user-images.githubusercontent.com/108919955/184530161-73bff3c8-2f73-4540-a132-5ee9c34b158f.png)  
   
-создал таблицу, вставил несколько значений, oid у данной таблицы:  
-![image](https://user-images.githubusercontent.com/108919955/184531056-e8d4a2e8-2e70-418f-a736-3e2f64c9c863.png)
+создал базу, таблицу, вставил несколько значений, oid у данной таблицы(16475) :  
+![image](https://user-images.githubusercontent.com/108919955/184532453-028b7c07-4577-4afe-be4e-e980d1c25924.png) 
+
+![image](https://user-images.githubusercontent.com/108919955/184532471-becea54b-e577-4295-a9cd-bc5a73f63434.png)  
+  
+ остановил, изменил байты:  
+![image](https://user-images.githubusercontent.com/108919955/184532532-efeb5f00-a40d-4d8f-b1e3-f4d087b8d141.png)
+   
+ запустил базу, ошибка не вышла, просто таблица стала пустая:  
+ ![image](https://user-images.githubusercontent.com/108919955/184532622-024c843f-d4fd-4a1a-9f1f-2b71569d595f.png)
+
 
 
