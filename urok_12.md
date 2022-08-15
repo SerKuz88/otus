@@ -45,4 +45,11 @@ ALTER SYSTEM SET max_parallel_maintenance_workers = '1';
 6 тестирование:  
 ALTER SYSTEM SET synchronous_commit = off;  ![image](https://user-images.githubusercontent.com/108919955/184649786-924cd857-4611-4581-8d6a-b37dfebc2d8a.png)  
 включение асинхронного режима дало нам прирост tps процентов на 30-40.  
+  
+7 тестирование:
+ALTER SYSTEM SET fsync = off;  
+![image](https://user-images.githubusercontent.com/108919955/184650639-81f28e37-9aa7-40ba-95f3-dfe363c57303.png)  
+отключение этого параметра тоже немного увеличило tps в тесте.  
+
+
 
