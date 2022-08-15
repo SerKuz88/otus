@@ -18,4 +18,20 @@ ALTER SYSTEM SET  shared_buffers = '512MB';
 ALTER SYSTEM SET  effective_cache_size = '1536MB';  
 ![image](https://user-images.githubusercontent.com/108919955/184645598-ad2a81a3-b1b4-47e7-9e5a-1339d958fa4c.png)  
 видимый прирост в tps - примерно 10%  
+  
+3 тестирование, добавляем следующие параметры:  
+ALTER SYSTEM SET  maintenance_work_mem = '128MB';  
+ALTER SYSTEM SET  checkpoint_completion_target = '0.9';  
+ALTER SYSTEM SET  wal_buffers = '16MB';  
+ALTER SYSTEM SET  default_statistics_target = '100';  
+ALTER SYSTEM SET  random_page_cost = '1.1';  
+![image](https://user-images.githubusercontent.com/108919955/184646867-cf84693d-34e6-409a-892f-c8d046464a29.png)  
+данные параметры не принесли прироста tps, даже в каких то моментах он снизился.  
+
+4 тестирование:  
+ALTER SYSTEM SET  effective_io_concurrency = '200';  
+ALTER SYSTEM SET  work_mem = '2621kB';  
+![image](https://user-images.githubusercontent.com/108919955/184647734-abb946cf-cabc-4797-a91a-6698d8deafe9.png)  
+результат схож с 3 тестированием  
+
 
