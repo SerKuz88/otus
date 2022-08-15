@@ -50,6 +50,7 @@ ALTER SYSTEM SET synchronous_commit = off;  ![image](https://user-images.githubu
 ALTER SYSTEM SET fsync = off;  
 ![image](https://user-images.githubusercontent.com/108919955/184650639-81f28e37-9aa7-40ba-95f3-dfe363c57303.png)  
 отключение этого параметра тоже немного увеличило tps в тесте.  
-
-
+  
+Вывод:  
+значительный прирост в tps дают параметры из 1 и 6 тестирования.  
 
