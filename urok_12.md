@@ -16,4 +16,6 @@
 2 тестирование:  
 ALTER SYSTEM SET  shared_buffers = '512MB';  
 ALTER SYSTEM SET  effective_cache_size = '1536MB';  
+![image](https://user-images.githubusercontent.com/108919955/184645598-ad2a81a3-b1b4-47e7-9e5a-1339d958fa4c.png)  
+видимый прирост в tps - примерно 10%  
 
