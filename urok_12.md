@@ -33,5 +33,10 @@ ALTER SYSTEM SET  effective_io_concurrency = '200';
 ALTER SYSTEM SET  work_mem = '2621kB';  
 ![image](https://user-images.githubusercontent.com/108919955/184647734-abb946cf-cabc-4797-a91a-6698d8deafe9.png)  
 результат схож с 3 тестированием  
-
+  
+5 тестирование:  
+ALTER SYSTEM SET max_worker_processes = '2';  
+ALTER SYSTEM SET max_parallel_workers_per_gather = '1';  
+ALTER SYSTEM SET max_parallel_workers = '2';  
+ALTER SYSTEM SET max_parallel_maintenance_workers = '1';  
 
