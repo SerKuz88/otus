@@ -13,4 +13,7 @@
 ![image](https://user-images.githubusercontent.com/108919955/184644009-4d9831ba-bedd-40d7-b1b5-0fadd63adc45.png)  
 средний tps = 200  
   
-2 
+2 тестирование:  
+ALTER SYSTEM SET  shared_buffers = '512MB';  
+ALTER SYSTEM SET  effective_cache_size = '1536MB';  
+
