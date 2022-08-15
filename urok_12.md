@@ -39,4 +39,10 @@ ALTER SYSTEM SET max_worker_processes = '2';
 ALTER SYSTEM SET max_parallel_workers_per_gather = '1';  
 ALTER SYSTEM SET max_parallel_workers = '2';  
 ALTER SYSTEM SET max_parallel_maintenance_workers = '1';  
+![image](https://user-images.githubusercontent.com/108919955/184648705-8249f1c1-172c-4e01-9aae-20a140b697db.png)  
+с этими параметрами показатель tps немного увеличился, но не сильно.  
+
+6 тестирование:  
+ALTER SYSTEM SET synchronous_commit = off;  ![image](https://user-images.githubusercontent.com/108919955/184649786-924cd857-4611-4581-8d6a-b37dfebc2d8a.png)  
+включение асинхронного режима дало нам приросто tps процентов на 30-40.  
 
