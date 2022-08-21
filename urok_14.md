@@ -23,6 +23,9 @@
 ![image](https://user-images.githubusercontent.com/108919955/185782193-87442bb0-c4e8-4666-a6f7-3aac99648fb0.png)     
 Добавил публикацию на перевой виртуальной машине по таблице test2  
 ![image](https://user-images.githubusercontent.com/108919955/185782328-0a6bcbb5-b36a-45a0-8382-cf6519e96018.png)   
+Добавил публикацию на второй виртуальной машине по таблице test1   
+![image](https://user-images.githubusercontent.com/108919955/185782721-49f722c5-95df-4b0b-b791-fdba81831782.png)   
+   
 Создаем подписку на 3 вирт машине для всех таблиц 1 виртуальной машине:   
 ![image](https://user-images.githubusercontent.com/108919955/185782488-8a2bd875-5b11-49a9-87ba-e52bc4843389.png)   
     
