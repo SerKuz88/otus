@@ -59,6 +59,21 @@ sudo -u postgres pg_basebackup -h 10.129.0.19 -p 5432 -U test -D /var/lib/postgr
 7. перезагружаемся   
 8. на ВМ3 стал виден ip базы репликации ВМ4:   
 ![image](https://user-images.githubusercontent.com/108919955/185798650-2182d326-61ae-49de-afde-119ce7c73979.png)   
+    
+ИТОГО:
+Вводим новое значение на ВМ1 и оно доходит до ВМ4:   
+ВМ1:   
+![image](https://user-images.githubusercontent.com/108919955/185799116-ea502d22-6f5b-46f7-94e1-f25a56d1542f.png)   
+логическая репликация на ВМ2 и ВМ3:  
+![image](https://user-images.githubusercontent.com/108919955/185799143-9038e09b-e2bd-4e6c-83f0-c50fd64eb830.png)   
+![image](https://user-images.githubusercontent.com/108919955/185799170-1cd1e5b2-7d81-4631-b962-8f1db946cae6.png)   
+   
+и физическая репликация на ВМ4 теперь имеет ту же строку:   
+![image](https://user-images.githubusercontent.com/108919955/185799240-061917ea-a330-4bad-82b9-2621c044173a.png)
+
+
+ 
+
   
 
 
