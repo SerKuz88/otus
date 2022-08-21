@@ -43,3 +43,24 @@
 4ВМ. Источником должна выступать ВМ №3. Написать с какими   
 проблемами столкнулись.   
 
+1. настраиваем IP адрес на ВМ3 (прописываем IP ВМ3)   
+![image](https://user-images.githubusercontent.com/108919955/185798309-21218c5a-3904-4a67-ad92-5e98946509bf.png)   
+2. создаем специальные праава на репликацию   
+CREATE ROLE test WITH REPLICATION PASSWORD 'testpassword' LOGIN;   
+3.редактируем pg_hba.conf (прописываем IP ВМ4)  
+![image](https://user-images.githubusercontent.com/108919955/185798413-8dacf34e-01b1-401d-a4d6-49c0d7404cb0.png)   
+4. перезагружаем ВМ3   
+5. на ВМ4 удаляем каталог main и на месте его создаем пустой такойже  
+sudo -u postgres rm -r /var/lib/postgresql/13/main  
+sudo -u postgres mkdir /var/lib/postgresql/13/main  
+sudo -u postgres chmod 700 /var/lib/postgresql/13/main  
+6.копируем из ВМ3 в ВМ4 каталог main:    
+sudo -u postgres pg_basebackup -h 10.129.0.19 -p 5432 -U test -D /var/lib/postgresql/13/main/ -Fp -Xs -R    
+7. перезагружаемся   
+8. на ВМ3 стал виден ip базы репликации ВМ4:   
+![image](https://user-images.githubusercontent.com/108919955/185798650-2182d326-61ae-49de-afde-119ce7c73979.png)   
+  
+
+
+
+
