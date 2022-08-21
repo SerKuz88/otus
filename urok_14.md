@@ -3,10 +3,11 @@
 чтение.   
 ![image](https://user-images.githubusercontent.com/108919955/185779128-2603b9c7-b761-4bde-9a81-148d5992cf3b.png)   
    
-Создаем публикацию таблицы test и подписываемся на   
-публикацию таблицы test2 с ВМ №2.   
+Создаем публикацию таблицы test    
 ![image](https://user-images.githubusercontent.com/108919955/185780110-97cb855b-8774-4923-865a-5047dd433a36.png)   
-   
+и подписываемся на публикацию таблицы test2 с ВМ №2.   
+![image](https://user-images.githubusercontent.com/108919955/185781576-cc6476fd-b5a6-4705-a5cd-d40c3a8e2bf0.png)
+
 
 
 
