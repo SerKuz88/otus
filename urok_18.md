@@ -23,5 +23,6 @@
 ![image](https://user-images.githubusercontent.com/108919955/189542275-8e58b16c-1f1a-4af3-819d-eaa88b6149d2.png)   
    
 К работе приложить структуру таблиц, для которых выполнялись соединения   
-![image](https://user-images.githubusercontent.com/108919955/189541087-be6834ce-342e-4b73-a44a-ab36c65b9178.png)
+![image](https://user-images.githubusercontent.com/108919955/189542463-3eb9c7fb-6db1-4198-ae51-3dc5bd15c74c.png)
+
 
