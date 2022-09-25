@@ -15,3 +15,10 @@ aircraft_code имеет 8 уникальных кодов самолетов
    
    ![image](https://user-images.githubusercontent.com/108919955/192154732-c60fc7d6-521d-40ad-a6cb-da3c30b8d9a4.png)   
 scheduled_departure имеет разбиение на три месяца.   
+   
+Остановлюсь на последнем варианте, сделаю три основных партиции, по месяцам: июль, август, сентябрь.   
+   
+2. создаю таблицу, секционированную по полю scheduled_departure   
+   
+   ![image](https://user-images.githubusercontent.com/108919955/192155429-ed9b2050-b081-4cb9-8bb6-1b1212afa194.png)
+
