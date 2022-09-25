@@ -25,3 +25,11 @@ scheduled_departure имеет разбиение на три месяца.
 3. создал секции на каждый месяц    
     
     ![image](https://user-images.githubusercontent.com/108919955/192155672-75d35c54-6845-407d-b2cc-bec23f5606d1.png)
+   
+4. перенес данные из flights в flights_range, в результет получил разбиение данных по партициям.
+   
+   ![image](https://user-images.githubusercontent.com/108919955/192156011-26b6b72b-408f-4c37-88e1-4356e8b1527b.png)
+   
+5. Проверочный запрос: выбираю данные за 25 августа и в плане видно что сканируется нужная партиция "flights_range_201708"   
+   
+   ![image](https://user-images.githubusercontent.com/108919955/192156365-9c2ca80c-c5b2-4d34-a938-d6738f95a5b0.png)
