@@ -20,5 +20,8 @@ scheduled_departure имеет разбиение на три месяца.
    
 2. создаю таблицу, секционированную по полю scheduled_departure   
    
-   ![image](https://user-images.githubusercontent.com/108919955/192155429-ed9b2050-b081-4cb9-8bb6-1b1212afa194.png)
-
+   ![image](https://user-images.githubusercontent.com/108919955/192155429-ed9b2050-b081-4cb9-8bb6-1b1212afa194.png)   
+   
+3. создал секции на каждый месяц    
+    
+    ![image](https://user-images.githubusercontent.com/108919955/192155672-75d35c54-6845-407d-b2cc-bec23f5606d1.png)
